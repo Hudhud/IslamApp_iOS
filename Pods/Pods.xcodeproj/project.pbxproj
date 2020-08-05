@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013E899FCF6B4D5728A18C9812F73122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		094973691D713611872A6C7606893AD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2512BD27C6DF49BCBEA892360F49E036 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D09056B385C6845238E924C970E79039 /* FXPageControl.m */; };
+		25BF03AB4F105B7956570B7AF0F9E93B /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */; };
+		3287A26D9C1DAF3ADD5109531B2AE1E1 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */; };
+		32972B05FFA149B0B84225F719AA7B8F /* Pods-Islams Fundament-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6070798664F8BA6C7317874BD05BD4 /* Pods-Islams Fundament-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B440E536D768E52065760E685E09B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3FDC3EE580B26A1AB28FD6F3D82D205B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		413AA08B533EA2866674FB34DDDBC8A5 /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C1EE442E0204071E31FACCCF5EE28BE /* XLPagerTabStrip.bundle */; };
+		4A1233769BE3317A064454E50C4FFB7E /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */; };
+		4C233BF513F15D21B6FD63768630D4E4 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */; };
+		51D7EEE91370D1D30F4FAC16B2DEEFD6 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */; };
+		60695808D089FC1DC8402CE670AFFD7F /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */; };
+		616DDC47EEC7B9CC711EB343AD0ED066 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
+		75ED918606DAE2C6DEECA181AFCBD1D8 /* Pods-Islams FundamentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0685758D1651F2DB02A64E048984FC8F /* Pods-Islams FundamentTests-dummy.m */; };
+		772342A94EC14756942EEFAFB0BFB38B /* Pods-Islams FundamentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B832AE1EF3BA7C78601E4A5BB9964E /* Pods-Islams FundamentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7823B57976ABB43F7E2DDD3CE1E98C41 /* Pods-Islams FundamentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 566F3DEDEC451F413AAEE2055EBE1C0F /* Pods-Islams FundamentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78309B89B9A21429824A1F6883CAB871 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04016E8BBEADE6BC563F0893A76F375C /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845DF9DA69D61A977C9E5AA70305FA90 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8732968004610862AFE4B34C750B4134 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */; };
+		8BB3D9B430209974108E9BE5A23A153C /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */; };
+		9B02A440F3EEA59006B892D5E9F7D7BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		9F7011BB7491A0ECB8F4D8DCEE805B2E /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */; };
+		AC49B91016303A09FE64C9CD174079FB /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */; };
+		AFA20CCB7B35E36A5C413BC07BF3CBF9 /* Pods-Islams Fundament-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF7AB5D5CB3180F0B17612D280ADBD /* Pods-Islams Fundament-dummy.m */; };
+		BBB875CE6A1949843A6F5DBCF0C62DE1 /* Pods-Islams FundamentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77642CBD6CA8A1D9ECE59CA63F382BB6 /* Pods-Islams FundamentUITests-dummy.m */; };
+		C5EBF102301A26D05AF11A0D4CD84C10 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */; };
+		E997488E67961E6B78D400CE845BDC8B /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 692CB4E7CB310FBFA5EAE4235D044300 /* XLPagerTabStrip-dummy.m */; };
+		ED0843736B81640C79935F5A5790E118 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
+		F998553B44414F9AF589A680BB8F3334 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */; };
+		FC808D599D52B889D252859D5EE61C18 /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07326110446C996DDE580432631B8519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCBF981062B0BC3499900044E542A4E;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		B18478E7C63B6246BC3D5D610A12E3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D58AB822C1FD91555CC5ACAFCF590DD;
+			remoteInfo = XLPagerTabStrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04016E8BBEADE6BC563F0893A76F375C /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		05080AC914D99AEFD8929BD5CA0BDF10 /* Pods-Islams FundamentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Islams FundamentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0685758D1651F2DB02A64E048984FC8F /* Pods-Islams FundamentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Islams FundamentTests-dummy.m"; sourceTree = "<group>"; };
+		0826D49C66473AB373DBE189F0DDFDB7 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		15A3E5BE2297B066E0C11EA89BB43065 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1974EFC98FEFF4066A9BE74D0FD053B9 /* Pods-Islams FundamentTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Islams FundamentTests-resources.sh"; sourceTree = "<group>"; };
+		197F5580027D176858F97BB8CC7D0F5A /* Pods-Islams FundamentUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Islams FundamentUITests-resources.sh"; sourceTree = "<group>"; };
+		1B37E6550EC498D847DABD0C9B50F3F5 /* Pods_Islams_Fundament.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Islams_Fundament.framework; path = "Pods-Islams Fundament.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F75DD8540E1FFB48A586F7D9C09653F /* Pods-Islams FundamentUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Islams FundamentUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		29D2D3A6CB1BDB1B508F1915515CB1A0 /* Pods-Islams FundamentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Islams FundamentTests.release.xcconfig"; sourceTree = "<group>"; };
+		3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		3C1EE442E0204071E31FACCCF5EE28BE /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		45905DB2F1553ADAA82F433157B02334 /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		4D46F4576DDA742FC5323777D6472660 /* Pods-Islams FundamentTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Islams FundamentTests-frameworks.sh"; sourceTree = "<group>"; };
+		4D6AB7FFBAE6104767C7D2C9F9F69774 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE50FFD9A1392665C898DE7943EE96D /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		566F3DEDEC451F413AAEE2055EBE1C0F /* Pods-Islams FundamentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Islams FundamentTests-umbrella.h"; sourceTree = "<group>"; };
+		5BDBFA25D42921FB20BF3755FD0D15B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6070798664F8BA6C7317874BD05BD4 /* Pods-Islams Fundament-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Islams Fundament-umbrella.h"; sourceTree = "<group>"; };
+		601EE374C7FEBD4B08FDC0BAA7427991 /* Pods-Islams FundamentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Islams FundamentTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		60479834F43E532FE46F77CB90E882BF /* Pods-Islams FundamentUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Islams FundamentUITests.modulemap"; sourceTree = "<group>"; };
+		62D33F304776C382CF95CF608F8BB557 /* Pods-Islams Fundament.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Islams Fundament.release.xcconfig"; sourceTree = "<group>"; };
+		62DDE9C299D85DF5B40A233DBA6509E1 /* Pods-Islams FundamentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Islams FundamentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		654C78959AD0695ED5BB1DA50E43DAC9 /* Pods-Islams FundamentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Islams FundamentTests.modulemap"; sourceTree = "<group>"; };
+		66BB844D5F95687611617CAED514DCA1 /* Pods-Islams FundamentUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Islams FundamentUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		692CB4E7CB310FBFA5EAE4235D044300 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		6CF160BD4D3B5312AB41DA99CC078A94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		77642CBD6CA8A1D9ECE59CA63F382BB6 /* Pods-Islams FundamentUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Islams FundamentUITests-dummy.m"; sourceTree = "<group>"; };
+		7FB5AAC530C51E0A666D50FD864E1D16 /* Pods-Islams Fundament-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Islams Fundament-frameworks.sh"; sourceTree = "<group>"; };
+		802EA821CDC207AA3D5F2C11A0D07B8B /* Pods-Islams FundamentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Islams FundamentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81EF7AB5D5CB3180F0B17612D280ADBD /* Pods-Islams Fundament-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Islams Fundament-dummy.m"; sourceTree = "<group>"; };
+		821CE866AC44FD17A25C9132D7A6AE88 /* Pods-Islams Fundament.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Islams Fundament.debug.xcconfig"; sourceTree = "<group>"; };
+		8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		87A3BE6ADB6173A4D02FBBC9ACEB30A9 /* Pods-Islams Fundament-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Islams Fundament-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98B832AE1EF3BA7C78601E4A5BB9964E /* Pods-Islams FundamentUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Islams FundamentUITests-umbrella.h"; sourceTree = "<group>"; };
+		991F62C9798A34AB008D0B994DF0B74C /* Pods_Islams_FundamentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Islams_FundamentUITests.framework; path = "Pods-Islams FundamentUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8612259D9B9FEA7E60F80FA2264667 /* Pods-Islams FundamentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Islams FundamentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		A7D239ADB1ADBFEA5D1C4FD9C2B95548 /* Pods-Islams Fundament-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Islams Fundament-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7116628C3663C981D5D90EFE9E6AF77 /* Pods-Islams FundamentUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Islams FundamentUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEA56D8A2AF1A16912E4E5D28054D940 /* Pods-Islams Fundament-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Islams Fundament-acknowledgements.plist"; sourceTree = "<group>"; };
+		D08875F3FCB051D76FB49BB59B8EE7D6 /* Pods-Islams Fundament.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Islams Fundament.modulemap"; sourceTree = "<group>"; };
+		D09056B385C6845238E924C970E79039 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E2350AFA1BEE557B3847FA80FA917232 /* Pods_Islams_FundamentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Islams_FundamentTests.framework; path = "Pods-Islams FundamentTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		FCCEEFEBEB960CD33611E034571E6283 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BACB8E7092587B494F72DEDC89099A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D83F105C7E31322FB27358A18F390CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013E899FCF6B4D5728A18C9812F73122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC1E0A26DD0361DD76F48E4A4350F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B440E536D768E52065760E685E09B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5E8CA7504C2A4E9D7DD08A19363A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094973691D713611872A6C7606893AD4 /* Foundation.framework in Frameworks */,
+				9B02A440F3EEA59006B892D5E9F7D7BC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B8601D1E328E9DD9495728BFCB5ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDC3EE580B26A1AB28FD6F3D82D205B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDBA91C14C67597502FE8C706226955 /* Pods-Islams Fundament */ = {
+			isa = PBXGroup;
+			children = (
+				4D6AB7FFBAE6104767C7D2C9F9F69774 /* Info.plist */,
+				D08875F3FCB051D76FB49BB59B8EE7D6 /* Pods-Islams Fundament.modulemap */,
+				A7D239ADB1ADBFEA5D1C4FD9C2B95548 /* Pods-Islams Fundament-acknowledgements.markdown */,
+				CEA56D8A2AF1A16912E4E5D28054D940 /* Pods-Islams Fundament-acknowledgements.plist */,
+				81EF7AB5D5CB3180F0B17612D280ADBD /* Pods-Islams Fundament-dummy.m */,
+				7FB5AAC530C51E0A666D50FD864E1D16 /* Pods-Islams Fundament-frameworks.sh */,
+				87A3BE6ADB6173A4D02FBBC9ACEB30A9 /* Pods-Islams Fundament-resources.sh */,
+				5E6070798664F8BA6C7317874BD05BD4 /* Pods-Islams Fundament-umbrella.h */,
+				821CE866AC44FD17A25C9132D7A6AE88 /* Pods-Islams Fundament.debug.xcconfig */,
+				62D33F304776C382CF95CF608F8BB557 /* Pods-Islams Fundament.release.xcconfig */,
+			);
+			name = "Pods-Islams Fundament";
+			path = "Target Support Files/Pods-Islams Fundament";
+			sourceTree = "<group>";
+		};
+		0E4A0BC116A4CF81711C58EC9606D121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B37E6550EC498D847DABD0C9B50F3F5 /* Pods_Islams_Fundament.framework */,
+				E2350AFA1BEE557B3847FA80FA917232 /* Pods_Islams_FundamentTests.framework */,
+				991F62C9798A34AB008D0B994DF0B74C /* Pods_Islams_FundamentUITests.framework */,
+				3C1EE442E0204071E31FACCCF5EE28BE /* XLPagerTabStrip.bundle */,
+				4EE50FFD9A1392665C898DE7943EE96D /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AFC43F0735E7BB026047EDB14228F39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF160BD4D3B5312AB41DA99CC078A94 /* Info.plist */,
+				45905DB2F1553ADAA82F433157B02334 /* ResourceBundle-XLPagerTabStrip-Info.plist */,
+				0826D49C66473AB373DBE189F0DDFDB7 /* XLPagerTabStrip.modulemap */,
+				3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */,
+				692CB4E7CB310FBFA5EAE4235D044300 /* XLPagerTabStrip-dummy.m */,
+				FCCEEFEBEB960CD33611E034571E6283 /* XLPagerTabStrip-prefix.pch */,
+				04016E8BBEADE6BC563F0893A76F375C /* XLPagerTabStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4FDC683B13706123D52141DE97D08D3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DDBA91C14C67597502FE8C706226955 /* Pods-Islams Fundament */,
+				CA7A6EED7C438B5E28F612F157CA1707 /* Pods-Islams FundamentTests */,
+				619B60C8553682866470BD55E98C8DAD /* Pods-Islams FundamentUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		619B60C8553682866470BD55E98C8DAD /* Pods-Islams FundamentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15A3E5BE2297B066E0C11EA89BB43065 /* Info.plist */,
+				60479834F43E532FE46F77CB90E882BF /* Pods-Islams FundamentUITests.modulemap */,
+				66BB844D5F95687611617CAED514DCA1 /* Pods-Islams FundamentUITests-acknowledgements.markdown */,
+				B7116628C3663C981D5D90EFE9E6AF77 /* Pods-Islams FundamentUITests-acknowledgements.plist */,
+				77642CBD6CA8A1D9ECE59CA63F382BB6 /* Pods-Islams FundamentUITests-dummy.m */,
+				1F75DD8540E1FFB48A586F7D9C09653F /* Pods-Islams FundamentUITests-frameworks.sh */,
+				197F5580027D176858F97BB8CC7D0F5A /* Pods-Islams FundamentUITests-resources.sh */,
+				98B832AE1EF3BA7C78601E4A5BB9964E /* Pods-Islams FundamentUITests-umbrella.h */,
+				05080AC914D99AEFD8929BD5CA0BDF10 /* Pods-Islams FundamentUITests.debug.xcconfig */,
+				802EA821CDC207AA3D5F2C11A0D07B8B /* Pods-Islams FundamentUITests.release.xcconfig */,
+			);
+			name = "Pods-Islams FundamentUITests";
+			path = "Target Support Files/Pods-Islams FundamentUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9AE3A07843C8C778ED30586199E24910 /* Pods */,
+				0E4A0BC116A4CF81711C58EC9606D121 /* Products */,
+				4FDC683B13706123D52141DE97D08D3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE3A07843C8C778ED30586199E24910 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CFC1CBA04529E35BB275B9E08F32A8D /* XLPagerTabStrip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CFC1CBA04529E35BB275B9E08F32A8D /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */,
+				3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */,
+				55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */,
+				E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */,
+				6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */,
+				85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */,
+				3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */,
+				4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */,
+				D09056B385C6845238E924C970E79039 /* FXPageControl.m */,
+				9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */,
+				6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */,
+				7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */,
+				0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */,
+				2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */,
+				684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */,
+				8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */,
+				B08F44A04415396C5E21D2DDAEDE5987 /* Resources */,
+				1AFC43F0735E7BB026047EDB14228F39 /* Support Files */,
+			);
+			name = XLPagerTabStrip;
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		B08F44A04415396C5E21D2DDAEDE5987 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CA7A6EED7C438B5E28F612F157CA1707 /* Pods-Islams FundamentTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BDBFA25D42921FB20BF3755FD0D15B9 /* Info.plist */,
+				654C78959AD0695ED5BB1DA50E43DAC9 /* Pods-Islams FundamentTests.modulemap */,
+				9A8612259D9B9FEA7E60F80FA2264667 /* Pods-Islams FundamentTests-acknowledgements.markdown */,
+				601EE374C7FEBD4B08FDC0BAA7427991 /* Pods-Islams FundamentTests-acknowledgements.plist */,
+				0685758D1651F2DB02A64E048984FC8F /* Pods-Islams FundamentTests-dummy.m */,
+				4D46F4576DDA742FC5323777D6472660 /* Pods-Islams FundamentTests-frameworks.sh */,
+				1974EFC98FEFF4066A9BE74D0FD053B9 /* Pods-Islams FundamentTests-resources.sh */,
+				566F3DEDEC451F413AAEE2055EBE1C0F /* Pods-Islams FundamentTests-umbrella.h */,
+				62DDE9C299D85DF5B40A233DBA6509E1 /* Pods-Islams FundamentTests.debug.xcconfig */,
+				29D2D3A6CB1BDB1B508F1915515CB1A0 /* Pods-Islams FundamentTests.release.xcconfig */,
+			);
+			name = "Pods-Islams FundamentTests";
+			path = "Target Support Files/Pods-Islams FundamentTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B83FED0C99F489BD5DC616A33CAE0E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7823B57976ABB43F7E2DDD3CE1E98C41 /* Pods-Islams FundamentTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C85812182C5D41E8D02298E8B53D377 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DF9DA69D61A977C9E5AA70305FA90 /* FXPageControl.h in Headers */,
+				78309B89B9A21429824A1F6883CAB871 /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA426E8019813E5D82205745ED19556 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772342A94EC14756942EEFAFB0BFB38B /* Pods-Islams FundamentUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C61F071BA9D3BEDE6F4F93EA1B1BEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32972B05FFA149B0B84225F719AA7B8F /* Pods-Islams Fundament-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12D3A6F6C658042D0E845F7861D586CA /* Pods-Islams FundamentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70253AD1ABB7574229B86BC81EFB948E /* Build configuration list for PBXNativeTarget "Pods-Islams FundamentTests" */;
+			buildPhases = (
+				248E98860FC02A8F17D4740BFD6B1EAE /* Sources */,
+				5D83F105C7E31322FB27358A18F390CD /* Frameworks */,
+				3B83FED0C99F489BD5DC616A33CAE0E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Islams FundamentTests";
+			productName = "Pods-Islams FundamentTests";
+			productReference = E2350AFA1BEE557B3847FA80FA917232 /* Pods_Islams_FundamentTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52E218EC02FADDCF52B1BAD6D41716F3 /* Pods-Islams Fundament */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF0EE5CFFD571F4FF50085E29507D22 /* Build configuration list for PBXNativeTarget "Pods-Islams Fundament" */;
+			buildPhases = (
+				B36201329934A008AB1293E09B0356BB /* Sources */,
+				D7B8601D1E328E9DD9495728BFCB5ADF /* Frameworks */,
+				F3C61F071BA9D3BEDE6F4F93EA1B1BEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CBF21BDB0A65DB6FEBCDE1BD720CAF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Islams Fundament";
+			productName = "Pods-Islams Fundament";
+			productReference = 1B37E6550EC498D847DABD0C9B50F3F5 /* Pods_Islams_Fundament.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F89E6F58742B015F231D7583C3DB8BF /* Pods-Islams FundamentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5C25A626EE1B923F956BFFBA5141DF /* Build configuration list for PBXNativeTarget "Pods-Islams FundamentUITests" */;
+			buildPhases = (
+				D2F367F1255A0F7094C18477279E8B92 /* Sources */,
+				ADC1E0A26DD0361DD76F48E4A4350F2F /* Frameworks */,
+				BCA426E8019813E5D82205745ED19556 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Islams FundamentUITests";
+			productName = "Pods-Islams FundamentUITests";
+			productReference = 991F62C9798A34AB008D0B994DF0B74C /* Pods_Islams_FundamentUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D58AB822C1FD91555CC5ACAFCF590DD /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBA12C0E9AA7244140D42B0733D8CEA /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				893E8444224527E5E0E86881A84847C4 /* Sources */,
+				CC5E8CA7504C2A4E9D7DD08A19363A68 /* Frameworks */,
+				61F2D121584F4D637895E5044B55469E /* Resources */,
+				9C85812182C5D41E8D02298E8B53D377 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE65DAEB76553E6D339C6F5F0A74940 /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = 4EE50FFD9A1392665C898DE7943EE96D /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADCBF981062B0BC3499900044E542A4E /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E719D9F51AF59E1B39E8538E81618A4 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				024BF7EA3C89A49C3F5ECF1A5DD6799B /* Sources */,
+				0BACB8E7092587B494F72DEDC89099A0 /* Frameworks */,
+				87E8ACDDB262C5D1F65BD39CE70BCB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = 3C1EE442E0204071E31FACCCF5EE28BE /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E4A0BC116A4CF81711C58EC9606D121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E218EC02FADDCF52B1BAD6D41716F3 /* Pods-Islams Fundament */,
+				12D3A6F6C658042D0E845F7861D586CA /* Pods-Islams FundamentTests */,
+				5F89E6F58742B015F231D7583C3DB8BF /* Pods-Islams FundamentUITests */,
+				6D58AB822C1FD91555CC5ACAFCF590DD /* XLPagerTabStrip */,
+				ADCBF981062B0BC3499900044E542A4E /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F2D121584F4D637895E5044B55469E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413AA08B533EA2866674FB34DDDBC8A5 /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E8ACDDB262C5D1F65BD39CE70BCB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0843736B81640C79935F5A5790E118 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024BF7EA3C89A49C3F5ECF1A5DD6799B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248E98860FC02A8F17D4740BFD6B1EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ED918606DAE2C6DEECA181AFCBD1D8 /* Pods-Islams FundamentTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893E8444224527E5E0E86881A84847C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60695808D089FC1DC8402CE670AFFD7F /* BarPagerTabStripViewController.swift in Sources */,
+				AC49B91016303A09FE64C9CD174079FB /* BarView.swift in Sources */,
+				4C233BF513F15D21B6FD63768630D4E4 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				C5EBF102301A26D05AF11A0D4CD84C10 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				9F7011BB7491A0ECB8F4D8DCEE805B2E /* ButtonBarView.swift in Sources */,
+				8BB3D9B430209974108E9BE5A23A153C /* ButtonBarViewCell.swift in Sources */,
+				616DDC47EEC7B9CC711EB343AD0ED066 /* ButtonCell.xib in Sources */,
+				2512BD27C6DF49BCBEA892360F49E036 /* FXPageControl.m in Sources */,
+				4A1233769BE3317A064454E50C4FFB7E /* IndicatorInfo.swift in Sources */,
+				FC808D599D52B889D252859D5EE61C18 /* PagerTabStripBehaviour.swift in Sources */,
+				3287A26D9C1DAF3ADD5109531B2AE1E1 /* PagerTabStripError.swift in Sources */,
+				25BF03AB4F105B7956570B7AF0F9E93B /* PagerTabStripViewController.swift in Sources */,
+				8732968004610862AFE4B34C750B4134 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				51D7EEE91370D1D30F4FAC16B2DEEFD6 /* SwipeDirection.swift in Sources */,
+				F998553B44414F9AF589A680BB8F3334 /* TwitterPagerTabStripViewController.swift in Sources */,
+				E997488E67961E6B78D400CE845BDC8B /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36201329934A008AB1293E09B0356BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA20CCB7B35E36A5C413BC07BF3CBF9 /* Pods-Islams Fundament-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F367F1255A0F7094C18477279E8B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB875CE6A1949843A6F5DBCF0C62DE1 /* Pods-Islams FundamentUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CBF21BDB0A65DB6FEBCDE1BD720CAF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = 6D58AB822C1FD91555CC5ACAFCF590DD /* XLPagerTabStrip */;
+			targetProxy = B18478E7C63B6246BC3D5D610A12E3A4 /* PBXContainerItemProxy */;
+		};
+		9AE65DAEB76553E6D339C6F5F0A74940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = ADCBF981062B0BC3499900044E542A4E /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 07326110446C996DDE580432631B8519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BDFCD5E34C52149A847F4A54D786FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		160A18C03B80DD5D5F2982A84FA86094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DDE9C299D85DF5B40A233DBA6509E1 /* Pods-Islams FundamentTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Islams FundamentTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Islams FundamentTests/Pods-Islams FundamentTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Islams_FundamentTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		77A18BB803649DFA3351533901DF0B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D2D3A6CB1BDB1B508F1915515CB1A0 /* Pods-Islams FundamentTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Islams FundamentTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Islams FundamentTests/Pods-Islams FundamentTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Islams_FundamentTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86AE401753B0C65E7C18A2AA1EFF4DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91BAC9FB3E1DD8B3A6E2147F5ECDDD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821CE866AC44FD17A25C9132D7A6AE88 /* Pods-Islams Fundament.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Islams Fundament/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Islams Fundament/Pods-Islams Fundament.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Islams_Fundament;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A4ECDF0DD1A1ADF71DB18D41D8B71F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B5EFA7EEF325C1495DD18D234C918AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D33F304776C382CF95CF608F8BB557 /* Pods-Islams Fundament.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Islams Fundament/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Islams Fundament/Pods-Islams Fundament.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Islams_Fundament;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B741EE4DE131F8C2F807408FAB4931F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05080AC914D99AEFD8929BD5CA0BDF10 /* Pods-Islams FundamentUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Islams FundamentUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Islams FundamentUITests/Pods-Islams FundamentUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Islams_FundamentUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80B0EC0FA852788C43F082534978891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB3B000C213EE33EF7A18AF386B0120 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3022C8FEBB4DEB3C2192CAE52CF305E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802EA821CDC207AA3D5F2C11A0D07B8B /* Pods-Islams FundamentUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Islams FundamentUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Islams FundamentUITests/Pods-Islams FundamentUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Islams_FundamentUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B5C25A626EE1B923F956BFFBA5141DF /* Build configuration list for PBXNativeTarget "Pods-Islams FundamentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B741EE4DE131F8C2F807408FAB4931F6 /* Debug */,
+				F3022C8FEBB4DEB3C2192CAE52CF305E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBA12C0E9AA7244140D42B0733D8CEA /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AE401753B0C65E7C18A2AA1EFF4DE2 /* Debug */,
+				D80B0EC0FA852788C43F082534978891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF0EE5CFFD571F4FF50085E29507D22 /* Build configuration list for PBXNativeTarget "Pods-Islams Fundament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BAC9FB3E1DD8B3A6E2147F5ECDDD47 /* Debug */,
+				B5EFA7EEF325C1495DD18D234C918AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E719D9F51AF59E1B39E8538E81618A4 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDFCD5E34C52149A847F4A54D786FED /* Debug */,
+				9A4ECDF0DD1A1ADF71DB18D41D8B71F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70253AD1ABB7574229B86BC81EFB948E /* Build configuration list for PBXNativeTarget "Pods-Islams FundamentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160A18C03B80DD5D5F2982A84FA86094 /* Debug */,
+				77A18BB803649DFA3351533901DF0B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-IslamApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-IslamAppTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-IslamAppUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>XLPagerTabStrip-XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>12FD5DDC9DF2B741B089306302A5F60D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>657842F47DF51EE43F79DD638DE46179</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>979D6522A8E7FA134DC3D2E54F9635A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B9DD0F2DD37D6709C17BFD3309EF9EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E654EF9736D71588BB20264CCEF8A251</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

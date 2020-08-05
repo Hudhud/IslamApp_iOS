@@ -1,0 +1,6 @@
+framework module Pods_Islams_FundamentUITests {
+  umbrella header "Pods-Islams FundamentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
