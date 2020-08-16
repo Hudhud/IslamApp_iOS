@@ -1,12 +1,16 @@
 PODS:
-  - XLPagerTabStrip (7.0.0)
+  - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
   - XLPagerTabStrip
 
+SPEC REPOS:
+  trunk:
+    - XLPagerTabStrip
+
 SPEC CHECKSUMS:
-  XLPagerTabStrip: 9be80a66c6b7d60306b2c0a6004965016d68f813
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
 PODFILE CHECKSUM: fcb6d0c96fddbb994d7682e20d7f30646b28163f
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.9.3

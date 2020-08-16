@@ -2,8 +2,6 @@
 //  HomeViewController.swift
 //  IslamApp
 //
-//  Created by Uros Zivaljevic on 6/25/17.
-//  Copyright © 2017 Uros Zivaljevic. All rights reserved.
 //
 
 import UIKit
@@ -55,7 +53,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             "Søjler",
             "Betingelser",
             "Afbrydelser",
-            "Bøntider"
+            "Hvordan indtræder bønnerne?"
             ]),
         HomeData(name: "Fasten", dataArray: [
             "Hvem er pålagt til at faste?",

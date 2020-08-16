@@ -2,8 +2,6 @@
 //  ContactViewController.swift
 //  IslamApp
 //
-//  Created by Uros Zivaljevic on 7/8/17.
-//  Copyright © 2017 Uros Zivaljevic. All rights reserved.
 //
 
 import UIKit

@@ -2,7 +2,6 @@
 //  TextViewController.swift
 //  IslamApp
 //
-//  Created by Uros Zivaljevic on 7/6/17.
 //
 
 import UIKit
@@ -10,7 +9,9 @@ import XLPagerTabStrip
 import AVFoundation
 
 class TextViewController: UIViewController, IndicatorInfoProvider {
-
+    
+    weak var delegate: AudioPlayersProtocol?
+    var playBtnDelegate: PlayBtnDelegate?
     var text = ""
     var bottomText: String?
     var image: UIImage?
@@ -18,6 +19,8 @@ class TextViewController: UIViewController, IndicatorInfoProvider {
     var arabText: String?
     var audioName: String?
     var audioPlayer: AVAudioPlayer?
+    var playBtnCount: Int = 0
+    
     
     @IBOutlet weak var arabTextLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
@@ -29,7 +32,7 @@ class TextViewController: UIViewController, IndicatorInfoProvider {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         textLabel.text = text
         
         imageView.image = image
@@ -41,8 +44,9 @@ class TextViewController: UIViewController, IndicatorInfoProvider {
             imageViewHeightConstraint.constant = image == nil ? 0 : 200
         }
         audioPlayerStackViewHeightConstraint.constant = audioName == nil ? 0 : 38
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -50,37 +54,60 @@ class TextViewController: UIViewController, IndicatorInfoProvider {
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
         return IndicatorInfo(title: tabTitle)
     }
-
+    
     @IBAction func playTapped(_ sender: UIButton) {
+        
+        playBtnCount+=1;
         self.playSound()
     }
     
     @IBAction func pauseTapped(_ sender: UIButton) {
-        audioPlayer?.stop()
+        stopSound()
     }
     
     @IBAction func replayTapped(_ sender: UIButton) {
+        stopSound()
         self.playSound()
     }
     
     func playSound() {
         let sound = URL(fileURLWithPath: Bundle.main.path(forResource: audioName, ofType: "m4a")!)
+        
+        print(playBtnCount);
+        playBtnCount = self.playBtnDelegate?.resetCounter() as! Int
+        print(playBtnCount);
+        
+        if playBtnCount < 2 {
+            
         do{
             audioPlayer = try AVAudioPlayer(contentsOf: sound)
+            self.delegate?.audioPlayers.append(audioPlayer)
             audioPlayer?.prepareToPlay()
             audioPlayer?.play()
+            self.playBtnDelegate?.changeAudioFlag(canPlay: false)
+            
         }catch {
             print("Error getting the audio file")
+            }
         }
+        
+    }
+    
+    func stopSound() {
+        playBtnCount = 0
+        audioPlayer?.stop()
     }
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
+
+    
+

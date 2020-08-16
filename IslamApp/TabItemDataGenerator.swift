@@ -2,8 +2,6 @@
 //  TabItemDataGenerator.swift
 //  IslamApp
 //
-//  Created by Uros Zivaljevic on 7/6/17.
-//  Copyright © 2017 Uros Zivaljevic. All rights reserved.
 //
 
 import Foundation
@@ -139,7 +137,6 @@ struct TabItemDataGenerator {
     
     static func generateBoentider() -> [TabItemData] {
         
-        let one = TabItemData(title: "Bøntidstabel", text: "", image: #imageLiteral(resourceName: "bontider"))
         let two = TabItemData(title: "Hvordan indtræder bønnerne?", text: "Iblandt forpligtelserne for enhver ansvarlig (mukallaf) er udførelse af de fem " +
             "bønner i løbet af dagen og natten. Eftersom kendskabet til disse bøntider er en " +
             "pligt for enhver ansvarlig, gøres der rede for dem i det følgende:\n\n" +
@@ -157,7 +154,7 @@ struct TabItemDataGenerator {
             "udtrædelse, og udtræder ved frembrudet af det sande daggry (Al-Fadjir As-Saadiq), " +
             "hvilket er det vandrette lys, der viser sig i den østlige horisont, som et tyndt " +
             "skær der dernæst udbreder sig.\n\n" + "Den femte bøn er morgenbønnen (As-Subh), hvis tid indtræder ved natbønnens udtrædelse, og udtræder ved solopgang (Shuruuq).")
-        return [one, two]
+        return [two]
     }
     static func generateHvordanMan() -> [TabItemData] {
         

@@ -2,7 +2,6 @@
 //  TabItemData.swift
 //  IslamApp
 //
-//  Created by Uros Zivaljevic on 7/6/17.
 //
 
 import UIKit
